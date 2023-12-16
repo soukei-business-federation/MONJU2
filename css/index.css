@@ -328,6 +328,7 @@ a{
 }
 
 #Contact_form .Contact_students p{
+    font-family: 'Kosugi', sans-serif;
     font-size: 20px;
     padding-top: 15px;
 }
@@ -358,6 +359,7 @@ a{
 }
 
 #Contact_form .Entry_students p{
+    font-family: 'Kosugi', sans-serif;
     font-size: 20px;
     padding-top: 15px;
 }
@@ -388,6 +390,7 @@ a{
 }
 
 #Contact_form .Contact_company p{
+    font-family: 'Kosugi', sans-serif;
     font-size: 20px;
     padding-top: 15px;
 }
