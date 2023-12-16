@@ -77,13 +77,16 @@ a{
     filter:drop-shadow(2px 4px 10px #5e5e5e);
 }
 
+
+
 #top_image .catchphrase{
     transform: scale(0.97,0.7);
     border-radius: 40px;
     position: relative;
     z-index: 1;
 }
-#top_image .catchphrase_button{
+
+#top_image .catchphrase_sentence{
     color: azure;
     padding: 30px;
     position: absolute;
@@ -119,6 +122,8 @@ a{
 #articles .articles_title h1{
     color: rgba(30, 30, 30, 0.904);
     font-family: "Arial", sans-serif;
+    border-bottom: solid 3px #ea6c1e;
+    display: inline-block;
     font-size: 35px;
     font-weight: bolder;
 }
@@ -219,9 +224,14 @@ a{
     left: 220px;
     width: 250px;
     height: 80px;
+}
+
+#About .About_title h1{
     font-size: 35px;
     font-weight: bold;
     font-family: "Arial", sans-serif;
+    display: inline-block;
+    border-bottom: solid 3px #ea6c1e;
 }
 
 #About .MONJU2_logo{
@@ -285,6 +295,8 @@ a{
     top: 45px;
     left: 80px;
     color: rgba(30, 30, 30, 0.904);
+    border-bottom: solid 3px #ea6c1e;
+    display: inline-block;
     font-family:"Arial",sans-serif ;
     font-size: 35px;
     font-weight: bolder;
