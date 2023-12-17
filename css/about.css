@@ -70,12 +70,13 @@
  
  /*about_outlineで使っているcss*/
 #about_outline .about_empty{
-    height: 400px;
+    height: 200px;
 }
 
 #about_outline .about_MONJU2{
-    height: 200px;
+    height: 100px;
     width: 100%;
+    margin-bottom: 200px;
     position: relative;
     display: flex;
     justify-content: center;
