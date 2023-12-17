@@ -71,28 +71,17 @@
  #articles{
     position: relative;
     height: 400px;
-    width: 100%;
  }
 
- #articles .news_title{
+#articles .news_title{
     position: absolute;
-    z-index: 1;
-    top: 160px;
-    left: 470px;
-    padding-left: 20px;
-    padding-right: 20px ;
-    background-color: rgb(246, 246, 246);
-    color: black;
-    font-size: 70px;
-    font-weight: 500;
-    font-family: "Times New Roman", sans-serif;
- }
+    top: -170px;
+    padding-left: 40px;
+}
 
- #articles img{
-    height: 400px;
-    width: 1500px;
-    padding-top: 50px;
-    filter: blur(5px);
+
+ #articles .news_title img{
+    transform: scale(1.1,1.1);
  }
 
  #articles_container{
