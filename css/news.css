@@ -70,33 +70,11 @@
  /*articlesで使われているcss*/
 #articles .news_title{
     width: 100%;
-    padding-left: 20px;
+    padding-left: 40px;
 }
 
 #articles .news_title img{
     transform: scale(0.9,0.9);
-}
-
-#articles_container .articles_line1{
-    height: 200px;
-    width: 100%;
-    position: relative;
-}
-
-#articles_container .article1 .article_image_box1{
-    border-radius: 20px;
-    height: 200px;
-    width: 355px;
-    position: absolute;
-    top: 30px;
-    left: 100px;
-    overflow: hidden;
-    filter:drop-shadow(0px 0px 10px #a8a8a8);
-}
-
-#articles_container .article1 .article_image_box1 img:hover{
-    transform: scale(1.05,1.05);
-    transition: all 1s;
 }
 
 #articles_container h1{
@@ -109,4 +87,66 @@
 #articles_container p{
     font-family: "Arial", sans-serif;
     color: #757575;
+}
+
+#articles_container .articles_line1{
+    height: 300px;
+    width: 100%;
+    display: flex;
+    padding-left: 10px;
+    justify-content: space-around;
+}
+
+#articles_container .articles_line1 .article1{
+    height: 300px;
+    width: 355px;
+}
+
+#articles_container .article1 .article_image_box1{
+    border-radius: 20px;
+    height: 200px;
+    width: 355px;
+    overflow: hidden;
+    filter:drop-shadow(0px 0px 10px #a8a8a8);
+}
+
+#articles_container .article1 .article_image_box1 img:hover{
+    transform: scale(1.05,1.05);
+    transition: all 1s;
+}
+
+#articles_container .articles_line1 .article2{
+    height: 300px;
+    width: 355px;
+}
+
+#articles_container .article2 .article_image_box2{
+    border-radius: 20px;
+    height: 200px;
+    width: 355px;
+    overflow: hidden;
+    filter:drop-shadow(0px 0px 10px #a8a8a8);
+}
+
+#articles_container .article2 .article_image_box2 img:hover{
+    transform: scale(1.05,1.05);
+    transition: all 1s;
+}
+
+#articles_container .articles_line1 .article3{
+    height: 300px;
+    width: 355px;
+}
+
+#articles_container .article3 .article_image_box3{
+    border-radius: 20px;
+    height: 200px;
+    width: 355px;
+    overflow: hidden;
+    filter:drop-shadow(0px 0px 10px #a8a8a8);
+}
+
+#articles_container .article3 .article_image_box3 img:hover{
+    transform: scale(1.05,1.05);
+    transition: all 1s;
 }
