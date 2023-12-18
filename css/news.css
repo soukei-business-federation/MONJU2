@@ -150,3 +150,12 @@
     transform: scale(1.05,1.05);
     transition: all 1s;
 }
+
+/*footerで使っているcss*/
+#footer{
+    height: 30px;
+    width: 100%;
+    font-size: xx-small;
+    text-align: center;
+    padding-top: 10px;
+}
