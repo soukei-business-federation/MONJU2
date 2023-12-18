@@ -687,12 +687,12 @@
 
 .about_details3 .about_details3-1 p{
     color: white;
-    font-size: 18.5px;
+    font-size: 20px;
     font-family: 'M PLUS 1p', sans-serif;
     position: absolute;
     z-index: 2;
     top: 120px;
-    left: 245px;
+    left: 260px;
 }
 
 .about_details .about_details3-2_blank{
@@ -956,4 +956,13 @@
     font-family: 'Kosugi', sans-serif;
     font-size: 20px;
     padding-top: 15px;
+}
+
+/*footerで使っているcss*/
+#footer{
+    height: 30px;
+    width: 100%;
+    font-size: xx-small;
+    text-align: center;
+    padding-top: 10px;
 }
