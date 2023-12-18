@@ -223,12 +223,12 @@
 
 .about_description1 .about_description1-2 p{
     color: white;
-    font-size: 20px;
+    font-size: 18.5px;
     font-family: 'M PLUS 1p', sans-serif;
     position: absolute;
     z-index: 2;
     top: 100px;
-    left: 150px;
+    left: 140px;
 }
 /*以上まで*/
 .about_description .about_description2-1_blank{
@@ -289,12 +289,12 @@
 
 .about_description2 .about_description2-1 p{
     color: white;
-    font-size: 17.5px;
+    font-size: 17px;
     font-family: 'M PLUS 1p', sans-serif;
     position: absolute;
     z-index: 2;
     top: 110px;
-    left: 140px;
+    left: 135px;
 }
 
 .about_description .about_description2-2_blank{
