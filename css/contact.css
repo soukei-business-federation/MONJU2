@@ -70,45 +70,54 @@
 
  /*Contact_formで使っているcss*/
  #Contact_form{
+    padding-top: 80px;
     background-color: #f5f5f5;
     position: relative;
-    height: 500px;
+    height: auto;
     width: 100%;
 }
 
+#Contact_form .Contact_title{
+    width: 100%;
+    height: 150px;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
 #Contact_form .Contact_title h1{
-    position: absolute;
-    top: 100px;
-    left: 610px;
+    height: auto;
+    padding-bottom: 10px;
     color: rgba(30, 30, 30, 0.904);
     font-family:"Arial",sans-serif ;
     font-size: 60px;
     font-weight: bolder;
-    border-bottom: solid 3px #ea6c1e;
-    display: inline-block;
 }
 
 #Contact_form .Contact_title p{
-    position: absolute;
-    top: 200px;
-    left: 440px;
     color: rgba(30, 30, 30, 0.904);
     font-family: 'Kosugi', sans-serif;
     font-size: 23px;
     font-weight: 200;
 }
 
+#Contact_form .Contact_list{
+    width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #Contact_form .Contact_students{
     color: black;
     background-color:  #ffffffb8;
     filter: drop-shadow(1px 2px 10px #d7d7d7);
-    position: absolute;
-    top: 300px;
-    left: 250px;
-    padding-left: 15px;
-    padding-top: 30px;
     height: 180px;
     width: 250px;
+    padding-left: 15px;
+    padding-top: 30px;
     border-radius: 40px;
 }
 
@@ -133,9 +142,6 @@
     color: black;
     background-color:  #ffffffb8;
     filter: drop-shadow(1px 2px 10px #d7d7d7);
-    position: absolute;
-    top: 300px;
-    left: 610px;
     padding-left: 15px;
     padding-top: 30px;
     height: 180px;
@@ -155,37 +161,6 @@
 }
 
 #Contact_form .Entry_students p{
-    font-family: 'Kosugi', sans-serif;
-    font-size: 20px;
-    padding-top: 15px;
-}
-
-#Contact_form .Contact_company{
-    color: black;
-    background-color: #ffffffb8;
-    filter: drop-shadow(1px 2px 10px #d7d7d7);
-    position: absolute;
-    top: 300px;
-    right: 200px;
-    padding-left: 15px;
-    padding-top: 30px;
-    height: 180px;
-    width: 250px;
-    border-radius: 40px;
-}
-
-#Contact_form .Contact_company:hover{
-    color: rgba(255, 255, 255, 0.973);
-    background-color: rgba(0, 0, 0, 0.815);
-    transition: all 0.5s;
-}
-
-#Contact_form .Contact_company h1{
-    font-size: 30px;
-    font-weight: bold;
-}
-
-#Contact_form .Contact_company p{
     font-family: 'Kosugi', sans-serif;
     font-size: 20px;
     padding-top: 15px;
