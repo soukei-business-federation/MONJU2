@@ -102,12 +102,16 @@
     width: 100%;
 }
 /*以下コメントアウトした部分をmasterとしてcopy*/
+.about_description .about_description1{
+    width: auto;
+    height: auto;
+}
+
 .about_description .about_description1-1_blank{
     width: 100%;
     height: 200px;
     position: relative;
     transition: 0.8s ease-in-out;
-    transition-delay: .4s;
     transform: translateY(30px);
     opacity: 0;
 }
@@ -118,28 +122,17 @@
 }
 
 .about_description .about_description1-1_blank img{
-    max-width: 100%;
-    height: auto;
-    position: absolute;
     transform: scale(0.75,0.75);
-    right: 30px;
-    bottom: -80px;
-}
-
-.about_description .about_description1{
-    width: 100%;
-    position: relative;
+    position: absolute;
+    right: 50px;
 }
 
 .about_description .about_description1 .about_description1-1{
-    position: absolute;
-    top: 30px;
-    left: 100px;
-    width: 900px;
+    width: 100%;
     height: 300px;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
     transition: 0.8s ease-in-out;
-    transition-delay: .4s;
     transform: translateY(30px);
     opacity: 0;
 }
@@ -149,55 +142,56 @@
     opacity: 1.0;
 }
 
-.about_description1 .about_description1-1 img{
+.about_description1 .about_description1-1 .about_description1-1_contents{
+    position: relative;
+}
+
+.about_description1-1 .about_description1-1_contents img{
+    max-width: 100%;
     transform: scale(0.75,0.6);
-    position: absolute;
     z-index: 1;
 }
 
-.about_description1 .about_description1-1 h1{
+.about_description1-1 .about_description1-1_contents h1{
     font-size: 50px;
     font-weight: bold;
     position: absolute;
-    left: 130px;
+    left: 50px;
 }
 
-.about_description1 .about_description1-1 p{
+.about_description1-1 .about_description1-1_contents p{
     color: white;
     font-size: 20px;
     font-family: 'M PLUS 1p', sans-serif;
     position: absolute;
     z-index: 2;
-    top: 120px;
-    left: 140px;
+    top: 110px;
+    left: 150px;
 }
 
-.about_description .about_description1-2_blank{
+.about_description1 .about_description1-2_blank{
     width: 100%;
     height: 200px;
-    position: relative;
     transition: 0.8s ease-in-out;
     transform: translateY(30px);
     opacity: 0;
 }
 
-.about_description .about_description1-2_blank.on{
+.about_description1 .about_description1-2_blank.on{
     transform: translateY(0);
     opacity: 1.0;
 }
 
-.about_description .about_description1-2_blank img{
-   position: absolute;
-   left: 150px;
-   bottom: -80px;
+.about_description1 .about_description1-2_blank img{
+    transform: scale(0.75,0.75);
+    padding-left: 100px;
 }
 
 .about_description .about_description1 .about_description1-2{
-    position: absolute;
-    left: 500px;
-    position: relative;
-    width: 900px;
+    width: 100%;
     height: 300px;
+    display: flex;
+    justify-content: space-between;
     transition: 0.8s ease-in-out;
     transform: translateY(30px);
     opacity: 0;
@@ -208,29 +202,38 @@
     opacity: 1.0;
 }
 
-.about_description1 .about_description1-2 img{
+.about_description1 .about_decription1-2 .about_description1-2_contents{
+    position: relative;
+}
+
+.about_description1-2 .about_description1-2_contents img{
+    max-width: 100%;
     transform: scale(0.75,0.6);
-    position: absolute;
     z-index: 1;
 }
 
-.about_description1 .about_description1-2 h1{
+.about_description1-2 .about_description1-2_contents h1{
     font-size: 50px;
     font-weight: bold;
     position: absolute;
-    right: 130px;
+    right: 500px;
 }
 
-.about_description1 .about_description1-2 p{
+.about_description1-2 .about_description1-2_contents p{
     color: white;
-    font-size: 18.5px;
+    font-size: 18px;
     font-family: 'M PLUS 1p', sans-serif;
     position: absolute;
     z-index: 2;
-    top: 100px;
-    left: 140px;
+    top: 110px;
+    right: 150px;
 }
 /*以上まで*/
+.about_description .about_description2{
+    width: auto;
+    height: auto;
+}
+
 .about_description .about_description2-1_blank{
     width: 100%;
     height: 200px;
@@ -247,23 +250,15 @@
 
 .about_description .about_description2-1_blank img{
     transform: scale(1.5,1.5);
-   position: absolute;
-   right: 130px;
-   bottom: -150px
-}
-
-.about_description .about_description2{
-    width: 100%;
-    position: relative;
+    position: absolute;
+    right: 210px;
 }
 
 .about_description .about_description2 .about_description2-1{
-    position: absolute;
-    top: 30px;
-    left: 100px;
-    width: 900px;
+    width: 100%;
     height: 300px;
-    position: relative;
+    display: flex;
+    justify-content: space-between;
     transition: 0.8s ease-in-out;
     transform: translateY(30px);
     opacity: 0;
@@ -274,30 +269,34 @@
     opacity: 1.0;
 }
 
-.about_description2 .about_description2-1 img{
+.about_description2 .about_description2-1 .about_description2-1_contents{
+    position: relative;
+}
+
+.about_description2-1 .about_description2-1_contents img{
+    max-width: 100%;
     transform: scale(0.75,0.6);
-    position: absolute;
     z-index: 1;
 }
 
-.about_description2 .about_description2-1 h1{
+.about_description2-1 .about_description2-1_contents h1{
     font-size: 50px;
     font-weight: bold;
     position: absolute;
-    left: 130px;
+    left: 50px;
 }
 
-.about_description2 .about_description2-1 p{
+.about_description2-1 .about_description2-1_contents p{
     color: white;
-    font-size: 17px;
+    font-size: 20px;
     font-family: 'M PLUS 1p', sans-serif;
     position: absolute;
     z-index: 2;
-    top: 110px;
-    left: 135px;
+    top: 100px;
+    left: 170px;
 }
 
-.about_description .about_description2-2_blank{
+.about_description2 .about_description2-2_blank{
     width: 100%;
     height: 200px;
     position: relative;
@@ -306,23 +305,22 @@
     opacity: 0;
 }
 
-.about_description .about_description2-2_blank.on{
+.about_description2 .about_description2-2_blank.on{
     transform: translateY(0);
     opacity: 1.0;
 }
 
-.about_description .about_description2-2_blank img{
+.about_description2 .about_description2-2_blank img{
+    transform:scale(1,1);
     position: absolute;
-    left: 200px;
-    bottom: -240px
+    left: 300px;
 }
 
 .about_description .about_description2 .about_description2-2{
-    position: absolute;
-    left: 500px;
-    position: relative;
-    width: 900px;
+    width: 100%;
     height: 300px;
+    display: flex;
+    justify-content: space-between;
     transition: 0.8s ease-in-out;
     transform: translateY(30px);
     opacity: 0;
@@ -333,27 +331,31 @@
     opacity: 1.0;
 }
 
-.about_description2 .about_description2-2 img{
+.about_description2 .about_decription2-2 .about_description2-2_contents{
+    position: relative;
+}
+
+.about_description2-2 .about_description2-2_contents img{
+    max-width: 100%;
     transform: scale(0.75,0.6);
-    position: absolute;
     z-index: 1;
 }
 
-.about_description2 .about_description2-2 h1{
+.about_description2-2 .about_description2-2_contents h1{
     font-size: 50px;
     font-weight: bold;
     position: absolute;
-    right: 130px;
+    right: 600px;
 }
 
-.about_description2 .about_description2-2 p{
+.about_description2-2 .about_description2-2_contents p{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     font-family: 'M PLUS 1p', sans-serif;
     position: absolute;
     z-index: 2;
     top: 130px;
-    left: 130px;
+    right: 200px;
 }
 
 #about_outline .about_features{
@@ -387,7 +389,7 @@
     height: auto;
 }
 
-.about_details .about_details1-1_blank{
+.about_details1 .about_details1-1_blank{
     width: 100%;
     height: 200px;
     position: relative;
@@ -396,12 +398,12 @@
     opacity: 0;
 }
 
-.about_details .about_details1-1_blank.on{
+.about_details1 .about_details1-1_blank.on{
     transform: translateY(0);
     opacity: 1.0;
 }
 
-.about_details .about_details1-1_blank img{
+.about_details1 .about_details1-1_blank img{
      position: absolute;
      right: 200px;
      bottom: -50px;
@@ -424,32 +426,33 @@
 
 .about_details1 .about_details1-1 .about_details1-1_contents{
     position: relative;
+    padding-left: 30px;
 }
 
-.about_details1 .about_details1-1 img{
+.about_details1-1 .about_details1-1_contents img{
     max-width: 100%;
     transform: scale(0.75,0.6);
     z-index: 1;
 }
 
-.about_details1 .about_details1-1 h1{
+.about_details1-1 .about_details1-1_contents h1{
     font-size: 50px;
     font-weight: bold;
     position: absolute;
     left: 50px;
 }
 
-.about_details1 .about_details1-1 p{
+.about_details1-1 .about_details1-1_contents p{
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     font-family: 'M PLUS 1p', sans-serif;
     position: absolute;
     z-index: 2;
-    top: 130px;
+    top: 100px;
     left: 250px;
 }
 
-.about_details .about_details1-2_blank{
+.about_details1 .about_details1-2_blank{
     width: 100%;
     height: 200px;
     transition: 0.8s ease-in-out;
@@ -457,9 +460,16 @@
     opacity: 0;
 }
 
-.about_details .about_details1-2_blank.on{
+.about_details1 .about_details1-2_blank.on{
+    position: relative;
     transform: translateY(0);
     opacity: 1.0;
+}
+
+.about_details1 .about_details1-2_blank img{
+    transform: scale(1,1);
+    position: absolute;
+    left: 200px;
 }
 
 .about_details .about_details1 .about_details1-2{
@@ -481,27 +491,27 @@
     position: relative;
 }
 
-.about_details1 .about_details1-2 img{
+.about_details1-2 .about_details1-2_contents img{
     max-width: 100%;
     transform: scale(0.75,0.6);
     z-index: 1;
 }
 
-.about_details1 .about_details1-2 h1{
+.about_details1-2 .about_details1-2_contents h1{
     font-size: 50px;
     font-weight: bold;
     position: absolute;
     left: 50px;
 }
 
-.about_details1 .about_details1-2 p{
+.about_details1-2 .about_details1-2_contents p{
     color: white;
     font-size: 15.5px;
     font-family: 'M PLUS 1p', sans-serif;
     position: absolute;
     z-index: 2;
-    top: 110px;
-    left: 205px;
+    top: 100px;
+    right: 160px;
 }
 
 .about_details .about_details2{
@@ -509,7 +519,7 @@
     height: auto;
 }
 
-.about_details .about_details2-1_blank{
+.about_details2 .about_details2-1_blank{
     width: 100%;
     height: 200px;
     position: relative;
@@ -518,18 +528,18 @@
     opacity: 0;
 }
 
-.about_details .about_details2-1_blank.on{
+.about_details2 .about_details2-1_blank.on{
     transform: translateY(0);
     opacity: 1.0;
 }
 
-.about_details .about_details2-1_blank img{
+.about_details2 .about_details2-1_blank img{
+     transform: scale(1.25,1.25);
      position: absolute;
-     right: 200px;
-     bottom: -50px;
+     right: 300px;
 }
 
-.about_details .about_details2 .about_details2-1{
+.about_details2 .about_details2-1 .about_details2-1{
     width: 100%;
     height: 300px;
     display: flex;
@@ -539,52 +549,59 @@
     opacity: 0;
 }
 
-.about_details .about_details2 .about_details2-1.on{
+.about_details2 .about_details2-1 .about_details2-1.on{
     transform: translateY(0);
     opacity: 1.0;
 }
 
 .about_details2 .about_details2-1 .about_details2-1_contents{
     position: relative;
+    height: 300px;
 }
 
-.about_details2 .about_details2-1 img{
-    max-width: 100%;
-    transform: scale(0.75,0.6);
+.about_details2-1 .about_details2-1_contents img{
+    transform: scale(0.8,0.6);
     z-index: 1;
 }
 
-.about_details2 .about_details2-1 h1{
+.about_details2-1 .about_details2-1_contents h1{
     font-size: 50px;
     font-weight: bold;
     position: absolute;
     left: 50px;
 }
 
-.about_details2 .about_details2-1 p{
+.about_details2-1 .about_details2-1_contents p{
     color: white;
-    font-size: 20px;
+    font-size: 17px;
     font-family: 'M PLUS 1p', sans-serif;
     position: absolute;
     z-index: 2;
-    top: 130px;
-    left: 250px;
+    top: 100px;
+    left: 230px;
 }
 
-.about_details .about_details2-2_blank{
+.about_details2 .about_details2-2_blank{
     width: 100%;
     height: 200px;
+    position: relative;
     transition: 0.8s ease-in-out;
     transform: translateY(30px);
     opacity: 0;
 }
 
-.about_details .about_details2-2_blank.on{
+.about_details2 .about_details2-2_blank.on{
     transform: translateY(0);
     opacity: 1.0;
 }
 
-.about_details .about_details2 .about_details2-2{
+.about_details2 .about_details2-2_blank img{
+    transform: scale(1.25,1.1);
+    position: absolute;
+    left: 200px;
+}
+
+.about_details .about_details2-2 .about_details2-2{
     width: 100%;
     height: 300px;
     display: flex;
@@ -599,31 +616,39 @@
     opacity: 1.0;
 }
 
+.about_details2 .about_details2-2 .about_details2-2_space{
+    border: #ea6c1e;
+    height: auto;
+    width: 100%;
+}
+
 .about_details2 .about_details2-2 .about_details2-2_contents{
+    width: 100%;
+    height: 300px;
     position: relative;
 }
 
-.about_details2 .about_details2-2 img{
-    max-width: 100%;
-    transform: scale(0.75,0.6);
-    z-index: 1;
+.about_details2-2 .about_details2-2_contents img{
+    transform: scale(0.8,0.7);
+    position: absolute;
+    right: 10px
 }
 
-.about_details2 .about_details2-2 h1{
+.about_details2-2 .about_details2-2_contents h1{
     font-size: 50px;
     font-weight: bold;
     position: absolute;
-    left: 50px;
+    right: 450px;
 }
 
-.about_details2 .about_details2-2 p{
+.about_details2-2 .about_details2-2_contents p{
     color: white;
-    font-size: 15.5px;
+    font-size: 20px;
     font-family: 'M PLUS 1p', sans-serif;
     position: absolute;
     z-index: 2;
-    top: 110px;
-    left: 205px;
+    top: 100px;
+    right: 130px;
 }
 
 .about_details .about_details3{
@@ -631,7 +656,7 @@
     height: auto;
 }
 
-.about_details .about_details3-1_blank{
+.about_details3 .about_details3-1_blank{
     width: 100%;
     height: 200px;
     position: relative;
@@ -640,12 +665,12 @@
     opacity: 0;
 }
 
-.about_details .about_details3-1_blank.on{
+.about_details3 .about_details3-1_blank.on{
     transform: translateY(0);
     opacity: 1.0;
 }
 
-.about_details .about_details3-1_blank img{
+.about_details3 .about_details3-1_blank img{
      position: absolute;
      right: 200px;
      bottom: -50px;
@@ -670,20 +695,20 @@
     position: relative;
 }
 
-.about_details3 .about_details3-1 img{
+.about_details3-1 .about_details3-1_contents img{
     max-width: 100%;
     transform: scale(0.75,0.6);
     z-index: 1;
 }
 
-.about_details3 .about_details3-1 h1{
+.about_details3-1 .about_details3-1_contents h1{
     font-size: 50px;
     font-weight: bold;
     position: absolute;
     left: 50px;
 }
 
-.about_details3 .about_details3-1 p{
+.about_details3-1 .about_details3-1_contents p{
     color: white;
     font-size: 20px;
     font-family: 'M PLUS 1p', sans-serif;
@@ -725,20 +750,20 @@
     position: relative;
 }
 
-.about_details3 .about_details3-2 img{
+.about_details3-2 .about_details3-2_contents img{
     max-width: 100%;
     transform: scale(0.75,0.6);
     z-index: 1;
 }
 
-.about_details3 .about_details3-2 h1{
+.about_details3-2 .about_details3-2_contents h1{
     font-size: 50px;
     font-weight: bold;
     position: absolute;
     left: 50px;
 }
 
-.about_details3 .about_details3-2 p{
+.about_details3-2 .about_details3-2_contents p{
     color: white;
     font-size: 15.5px;
     font-family: 'M PLUS 1p', sans-serif;
