@@ -191,7 +191,7 @@ a{
 
 /*Aboutで使っているcss*/
 #About{
-    height: 500px;
+    height: auto;
     width: 100%;
 }
 
@@ -212,7 +212,6 @@ a{
 }
 
 #About .About_contents{
-    border: solid 1px gray;
     width: 100%;
     height: auto;
     display: flex;
@@ -220,34 +219,32 @@ a{
 }
 
 #About .MONJU2_logo{
-    border: solid 1px gray;
-    transform: scale(0.55,0.55);
+    transform: scale(0.7,0.7);
     height: auto ;
 }
 
 #About .About_description{
-    border: solid 1px gray;
+    width: 100%;
     height: auto;
     font-weight: bolder;
+    display: flex;
+    align-items: center;
 }
 
 #About .About_footer{
-    position: absolute;
-    bottom: 1px;
+    border: solid 1px gray;
+    height: 100px;
     width: 100%;
 }
 
 #About .About_footer .viwer_button{
-    position: absolute;
-    right: 280px;
-    bottom: 90px;
     border: solid 5px black;
     border-radius: 30px;
     height: 60px;
     width: 150px;
-    display: flex;
+    padding-top: 15px;
     padding-left: 10px;
-    padding-top: 14px;
+    display: flex;
     justify-content: space-around;
     font-size: larger;
     font-weight: bold;
