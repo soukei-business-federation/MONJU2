@@ -68,6 +68,30 @@
      margin-left: 50px;
  }
 
+/*Entyr_emptyで使っているcss*/
+#Entry_empty{
+    width: 100%;
+    height: 200px;
+}
+
+/*Entyr_headerで使っているcss*/
+#Entry_header{
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+#Entry_header h1{
+    position: absolute;
+    bottom: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: "Arial",sans-serif;
+    border-bottom: solid 4px #ea6c1e;
+    display: inline-block;
+}
+
  /*Contact_formで使っているcss*/
  #Contact_form{
     padding-top: 80px;
@@ -79,7 +103,7 @@
 
 #Contact_form .Contact_title{
     width: 100%;
-    height: 150px;
+    height: auto;
     display: flex;   
     flex-direction: column;
     justify-content: center;
@@ -88,7 +112,6 @@
 
 #Contact_form .Contact_title h1{
     height: auto;
-    padding-bottom: 10px;
     color: rgba(30, 30, 30, 0.904);
     font-family:"Arial",sans-serif ;
     font-size: 60px;
@@ -98,16 +121,22 @@
 #Contact_form .Contact_title p{
     color: rgba(30, 30, 30, 0.904);
     font-family: 'Kosugi', sans-serif;
-    font-size: 23px;
+    font-size: 27px;
     font-weight: 200;
+    padding-top: 50px;
+}
+
+#Contact_form .Contact_title .Contact_title_space{
+    width: 100%;
+    height: 100px;
 }
 
 #Contact_form .Contact_list{
     width: 100%;
-    height: auto;
-    padding-bottom: 20px;
+    height: 300px;
     display: flex;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 #Contact_form .Contact_students{
