@@ -232,12 +232,16 @@ a{
 }
 
 #About .About_footer{
-    border: solid 1px gray;
     height: 100px;
     width: 100%;
+    display: flex;
+    justify-content: end;
+    position: relative;
 }
 
 #About .About_footer .viwer_button{
+    position: absolute;
+    right: 200px;
     border: solid 5px black;
     border-radius: 30px;
     height: 60px;
