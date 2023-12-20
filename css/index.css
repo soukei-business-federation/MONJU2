@@ -11,30 +11,25 @@ a{
    z-index: 3;
    height: 70px;
    width: 100%;
+   display: flex;
+   justify-content: space-between;
 }
 
-#header_wrapper .header_logo .MONJU2_logo{
-  transform: scale(1,0.8);
-  position: absolute;
-  left: 20px;
+#header_wrapper .header_logo {
+    padding-left: 20px;
+    transform: scale(1,0.8);
 }
 
 #header_wrapper .header_sns{
-    position: absolute;
-    top: 26px;
-    right: 100px;
+    width: 150px;
+    padding-top: 28px;
+    padding-right: 20px;
     display: flex;
-    height: 23px;
-}
-
-.header_sns .MONJU_Instagram{
-    margin-left: 40px;
+    justify-content: space-around;
 }
 
 #header_wrapper .global_menu{
-    position: absolute;
-    top: 28px;
-    right: 280px;
+    padding-top: 30px;
 }
 
 .global_menu .header_navlist{
@@ -44,7 +39,6 @@ a{
     list-style: none; 
     display: flex;
     justify-content: space-around;
-    transform: scale(1.15,1.15);
 }
 
 .header_navlist_item1,.header_navlist_item2,.header_navlist_item3,.header_navlist_item4,.header_navlist_item5,.header_navlist_item6{
