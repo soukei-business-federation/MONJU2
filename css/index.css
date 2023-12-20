@@ -47,7 +47,7 @@ a{
     transform: scale(1.15,1.15);
 }
 
-.header_navlist_item1,.header_navlist_item2,.header_navlist_item3,.header_navlist_item4 .header_navlist_item5 .header_navlist_item6{
+.header_navlist_item1,.header_navlist_item2,.header_navlist_item3,.header_navlist_item4,.header_navlist_item5,.header_navlist_item6{
     position: relative;
 }
 
