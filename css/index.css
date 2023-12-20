@@ -61,7 +61,7 @@ a{
     bottom: -3px;               
     transform: scale(0, 1);     
     transform-origin: left top; 
-    transition: transform 0.3s; 
+    transition: 0.3s; 
 }
     
 .header_navlist_item1:hover::after,.header_navlist_item2:hover::after,.header_navlist_item3:hover::after,.header_navlist_item4:hover::after,.header_navlist_item5:hover::after,.header_navlist_item6:hover::after{
