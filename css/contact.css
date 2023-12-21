@@ -61,115 +61,37 @@
      margin-left: 50px;
  }
  
-/*Entyr_emptyで使っているcss*/
-#Entry_empty{
+/*Contact_emptyで使っているcss*/
+#Contact_empty{
     width: 100%;
-    height: 200px;
-}
-
-/*Entyr_headerで使っているcss*/
-#Entry_header{
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-#Entry_header h1{
-    position: absolute;
-    bottom: 0px;
-    font-size: 50px;
-    font-weight: bolder;
-    font-family: "Arial",sans-serif;
-    border-bottom: solid 4px #ea6c1e;
-    display: inline-block;
-}
-
-/*Contact_headerで使っているcss*/
-#Contact_header{
-    width: 100%;
-    position: relative;
-    display: flex;
-    justify-content: center;
-}
-
-#Contact_header h1{
-    position: absolute;
-    bottom: 0px;
-    font-size: 50px;
-    font-weight: bolder;
-    font-family: "Arial",sans-serif;
-    border-bottom: solid 4px #ea6c1e;
-    display: inline-block;
+    height: 130px
 }
 
  /*Contactで使っているcss*/
- #Contact{
-    padding-top: 80px;
-    background-color: #f5f5f5;
-    position: relative;
-    height: auto;
-    width: 100%;
-}
-
 #Contact .Contact_title{
     width: 100%;
-    height: auto;
     display: flex;   
-    flex-direction: column;
     justify-content: center;
-    text-align: center;
 }
 
 #Contact .Contact_title h1{
     height: auto;
-    color: rgba(30, 30, 30, 0.904);
     font-family:"Arial",sans-serif ;
-    font-size: 40px;
+    font-size: 50px;
     font-weight: bolder;
-}
-
-#Contact .Contact_title p{
-    color: rgba(30, 30, 30, 0.904);
-    font-family: 'Kosugi', sans-serif;
-    font-size: 27px;
-    font-weight: 200;
-    padding-top: 50px;
-}
-
-#Contact .Contact_title .Contact_title_space{
-    width: 100%;
-    height: 100px;
+    border-bottom: solid 4px #ea6c1e;
+    display: inline-block;
 }
 
 #Contact .Contact_list{
-    width: 100%;
-    height: 300px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-}
-
-#Contact .Contact_companies{
-    color: black;
-    background-color:  #ffffffb8;
-    filter: drop-shadow(1px 2px 10px #d7d7d7);
-    height: 180px;
-    width: 500px;
-    padding-top: 30px;
-    border-radius: 40px;
+    background-color: #f5f5f5;
+    height: 2300px;
+    padding-top: 50px;
     text-align: center;
 }
 
-#Contact .Contact_companies:hover{
-    color: rgba(255, 255, 255, 0.973);
-    background-color: rgba(0, 0, 0, 0.815);
-    transition: all 0.5s;
-}
-
-#Contact .Contact_companies h1{
-    font-size: 80px;
-    font-weight: bolder;
+#Contact .Contact_list iframe{
+    max-width: 80%;
 }
 
 /*fotterで使っているcss*/
@@ -178,5 +100,5 @@
     width: 100%;
     font-size: xx-small;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
 }

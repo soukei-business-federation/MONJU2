@@ -72,13 +72,6 @@
     display: flex;
     justify-content: center;
     transition: 0.8s ease-in-out;
-    transform: translateY(30px);
-    opacity: 0;
-}
-
-#about_outline .about_MONJU2.on{
-    transform: translateY(0);
-    opacity: 1.0;
 }
 
 #about_outline .about_MONJU2 h1{
@@ -791,13 +784,6 @@
 #about_outline .about_schedule{
     transform: scale(1,1);
     position: relative;
-}
-
-#about_outline .about_schedule p{
-    position: absolute;
-    right: 10px;
-    bottom: 10px;
-    
 }
 
 #about_outline .about_supporter{
