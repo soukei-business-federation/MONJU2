@@ -12,31 +12,30 @@ a{
    height: 70px;
    width: 100%;
    display: flex;
-   justify-content: space-between;
+   justify-content: space-evenly;
 }
 
-#header_wrapper .header_logo {
-    padding-left: 20px;
-    transform: scale(1,0.8);
+#header_wrapper .header_logo img{
+    border: solid 1px gray;
+    transform: scale(1,0.9);
+    position: absolute;
+    top: 0px;
+    left: 10px;
 }
 
 #header_wrapper .header_sns{
-    width: 150px;
-    padding-top: 28px;
-    padding-right: 20px;
+    position: absolute;
+    width: auto;
     display: flex;
-    justify-content: space-around;
 }
 
-#header_wrapper .global_menu{
-    padding-top: 30px;
-}
-
-.global_menu .header_navlist{
+#header_wrapper .header_navlist{
     font-family: "Rubik", sans-serif;
     color: #00000075;
     font-size: 17px;
     list-style: none; 
+    position: relative;
+    max-width: 100%;
     display: flex;
     justify-content: space-around;
 }
@@ -354,4 +353,8 @@ a{
     font-size: xx-small;
     text-align: center;
     padding-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    
 }
