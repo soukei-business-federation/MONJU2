@@ -158,7 +158,7 @@
     font-family: 'M PLUS 1p', sans-serif;
     position: absolute;
     z-index: 2;
-    top: 110px;
+    top: 120px;
     left: 150px;
 }
 
@@ -168,16 +168,13 @@
     transition: 0.8s ease-in-out;
     transform: translateY(30px);
     opacity: 0;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .about_description1 .about_description1-2_blank.on{
     transform: translateY(0);
     opacity: 1.0;
-}
-
-.about_description1 .about_description1-2_blank img{
-    transform: scale(0.75,0.75);
-    padding-left: 100px;
 }
 
 .about_description .about_description1 .about_description1-2{
@@ -194,14 +191,13 @@
     transform: translateY(0);
     opacity: 1.0;
 }
-
-.about_description1 .about_decription1-2 .about_description1-2_contents{
+.about_description1 .about_description1-2 .about_description1-2_contents{
     position: relative;
 }
 
 .about_description1-2 .about_description1-2_contents img{
     max-width: 100%;
-    transform: scale(0.75,0.6);
+    transform: scale(0.75,0.55);
     z-index: 1;
 }
 
@@ -209,7 +205,7 @@
     font-size: 50px;
     font-weight: bold;
     position: absolute;
-    right: 500px;
+    right: 400px;
 }
 
 .about_description1-2 .about_description1-2_contents p{

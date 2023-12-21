@@ -60,3 +60,84 @@
 .header_navlist_item2,.header_navlist_item3,.header_navlist_item4,.header_navlist_item5,.header_navlist_item6{
     margin-left: 50px;
 }
+ 
+/*Entry_emptyで使っているcss*/
+#Entry_empty{
+    width: 100%;
+    height: 150px;
+}
+
+/*Entry_headerで使っているcss*/
+#Entry_header{
+    width: 100%;
+    height: 80px;
+}
+
+/*Entryで使っているcss*/
+#Entry{
+    padding-top: 80px;
+    background-color: #f5f5f5;
+    position: relative;
+    height: auto;
+    width: 100%;
+}
+
+#Entry .Entry_title{
+    width: 100%;
+    height: auto;
+    display: flex;   
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+#Entry .Entry_title h1{
+    height: auto;
+    color: rgba(30, 30, 30, 0.904);
+    font-family:"Arial",sans-serif ;
+    font-size: 60px;
+    font-weight: bolder;
+}
+
+#Entry .Entry_title p{
+    color: rgba(30, 30, 30, 0.904);
+    font-family: 'Kosugi', sans-serif;
+    font-size: 27px;
+    font-weight: 200;
+    padding-top: 50px;
+}
+
+#Entry .Entry_title .Entry_title_space{
+    width: 100%;
+    height: 100px;
+}
+
+#Entry .Entry_list{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+#Entry .Entry_students{
+    color: black;
+    background-color:  #ffffffb8;
+    filter: drop-shadow(1px 2px 10px #d7d7d7);
+    height: 180px;
+    width: 500px;
+    padding-top: 30px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+#Entry .Entry_students:hover{
+    color: rgba(255, 255, 255, 0.973);
+    background-color: rgba(0, 0, 0, 0.815);
+    transition: all 0.5s;
+}
+
+#Entry .Entry_students h1{
+    font-size: 80px;
+    font-weight: bolder;
+}
