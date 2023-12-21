@@ -62,6 +62,16 @@
  } 
 
  /*articlesで使われているcss*/
+#articles {
+    width: 100%;
+    height: auto;
+}
+
+#articles .news_title img{
+    width: 100%;
+    transform: scale(1,1);
+    display: flex;
+}
 
  /*articles_containerで使われいるcss*/
 #articles_container h1{
