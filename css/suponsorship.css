@@ -1,88 +1,80 @@
 /*header_wrapperで使っているcss*/
 #header_wrapper{
-   border-bottom: solid 1px #d0d0d0;
-   background-color: white;
-   position: fixed;
-   z-index: 3;
-   height: 70px;
-   width: 100%;
-   display: flex;
-   justify-content: space-between;
-}
-
-#header_wrapper .header_logo {
-    padding-left: 20px;
-    transform: scale(1,0.8);
-}
-
-#header_wrapper .header_sns{
-    width: 150px;
-    padding-top: 28px;
-    padding-right: 20px;
+    border-bottom: solid 1px #d0d0d0;
+    background-color: white;
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    height: 70px;
     display: flex;
     justify-content: space-around;
-}
-
-#header_wrapper .global_menu{
-    padding-top: 30px;
-}
-
-.global_menu .header_navlist{
-    font-family: "Rubik", sans-serif;
-    color: #00000075;
-    font-size: 17px;
-    list-style: none; 
-    display: flex;
-    justify-content: space-around;
-}
-
-.header_navlist_item1,.header_navlist_item2,.header_navlist_item3,.header_navlist_item4,.header_navlist_item5,.header_navlist_item6{
-    position: relative;
-}
-
-.header_navlist_item1::after,.header_navlist_item2::after,.header_navlist_item3::after,.header_navlist_item4::after,.header_navlist_item5::after,.header_navlist_item6::after{
-    position: absolute;
-    left: 0;
-    content: '';
-    width: 100%;
-    height: 2px;
-    background: #ea6c1e;
-    bottom: -3px;               
-    transform: scale(0, 1);     
-    transform-origin: left top; 
-    transition: 0.3s; 
-}
-    
-.header_navlist_item1:hover::after,.header_navlist_item2:hover::after,.header_navlist_item3:hover::after,.header_navlist_item4:hover::after,.header_navlist_item5:hover::after,.header_navlist_item6:hover::after{
-    transform: scale(1, 1);     
-}
-
-.header_navlist_item2,.header_navlist_item3,.header_navlist_item4,.header_navlist_item5,.header_navlist_item6{
-    margin-left: 50px;
-}
-
-/*suponsorship_emptyで使っているcss*/
-#suponsorship_empty{
-    width: 100%;
-    height: 200px;
-}
-
+    align-items: center;
+ }
+ 
+ #header_wrapper .header_logo{
+     height: 65px;
+     position: absolute;
+     left: 10px;
+ }
+ 
+ #header_wrapper .header_sns{
+     position: absolute;
+     right: 20px;
+     width: 150px;
+     padding-top: 15px;
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ #header_wrapper .header_navlist{
+     font-family: "Rubik", sans-serif;
+     color: #00000075;
+     font-size: 17px;
+     width: auto;
+     list-style: none; 
+     display: flex;
+     justify-content: space-around;
+ }
+ 
+ .header_navlist_item1,.header_navlist_item2,.header_navlist_item3,.header_navlist_item4,.header_navlist_item5,.header_navlist_item6{
+     position: relative;
+     margin-left: 30px;
+ }
+ 
+ .header_navlist_item1::after,.header_navlist_item2::after,.header_navlist_item3::after,.header_navlist_item4::after,.header_navlist_item5::after,.header_navlist_item6::after{
+     position: absolute;
+     left: 0;
+     content: '';
+     width: 100%;
+     height: 2px;
+     background: #ea6c1e;
+     bottom: -3px;               
+     transform: scale(0, 1);     
+     transform-origin: left top; 
+     transition: 0.3s; 
+ }
+     
+ .header_navlist_item1:hover::after,.header_navlist_item2:hover::after,.header_navlist_item3:hover::after,.header_navlist_item4:hover::after,.header_navlist_item5:hover::after,.header_navlist_item6:hover::after{
+     transform: scale(1, 1);     
+ }
+ 
 /*suponsorship_headerで使っているcss*/
 #suponsorship_header{
-        width: 100%;
-        position: relative;
-        display: flex;
-        justify-content: center;
+   width: 100%;        
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
 }
     
 #suponsorship_header h1{
-        position: absolute;
-        bottom: 0px;
-        font-size: 50px;
-        font-weight: bolder;
-        font-family: "Arial",sans-serif;
-        border-bottom: solid 4px #ea6c1e;
-        display: inline-block;    
+    position: absolute;
+    bottom: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: "Arial",sans-serif;        
+    border-bottom: solid 4px #ea6c1e;
+    display: inline-block;    
 }
 
 /*suponsorshipで使っているcs*/
@@ -95,27 +87,70 @@
 }
 
 #suponsorship h1{
-    font-size: 40px;
+    font-size: 50px;
     font-family: "Arial",sans-serif;
     font-weight: bolder;
+    border-bottom: solid 4px #ea6c1e;
+    display: inline-block;
+    margin-bottom: 30px;
 }
 
 #suponsorship h2{
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Arial",sans-serif;
     font-weight: bold;
+    border-bottom: solid 4px rgb(0, 66, 164);
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+#suponsorship h3{
+    font-size: 40px;
+    font-family: "Arial",sans-serif;
+    font-weight: bold;
+    margin-bottom: 80px;
 }
 
 #suponsorship p{
     font-size: 24px;
     font-family: "Arial",sans-serif;
+    margin-bottom: 100px;
+}
+
+
+#suponsorship .suponsorship_introduction{
+    margin-bottom: 150px;
+}
+
+#suponsorship .suponsorship_value{
+    margin-bottom: 150px;
+}
+#suponsorship .suponsorship_value_table{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#suponsorship .suponsorship_desire{
+    margin-bottom: 150px;
+}
+
+#suponsorship .suponsorship_desire .last{
+    margin-bottom: 150px;
+}
+
+#suponsorship .contact a{
+    color: blue;
 }
 
 /*fotterで使っているcss*/
-#footer{
+#footer {
     height: 30px;
     width: 100%;
-    font-size: xx-small;
     text-align: center;
     padding-top: 10px;
+}
+
+#footer p{
+    font-size: xx-small;
 }
