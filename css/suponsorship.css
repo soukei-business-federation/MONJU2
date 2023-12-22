@@ -57,7 +57,12 @@
  .header_navlist_item1:hover::after,.header_navlist_item2:hover::after,.header_navlist_item3:hover::after,.header_navlist_item4:hover::after,.header_navlist_item5:hover::after,.header_navlist_item6:hover::after{
      transform: scale(1, 1);     
  }
- 
+/*Suponsorship_emptyで使っているcss*/
+#suponsorship_empty{
+    width: 100%;
+    height: 200px;
+}
+
 /*suponsorship_headerで使っているcss*/
 #suponsorship_header{
    width: 100%;        
