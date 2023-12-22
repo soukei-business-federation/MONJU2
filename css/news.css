@@ -4,33 +4,33 @@
     background-color: white;
     position: fixed;
     z-index: 3;
-    height: 70px;
     width: 100%;
+    height: 70px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
  }
  
- #header_wrapper .header_logo {
-     padding-left: 20px;
-     transform: scale(1,0.8);
+ #header_wrapper .header_logo{
+     height: 65px;
+     position: absolute;
+     left: 10px;
  }
  
  #header_wrapper .header_sns{
+     position: absolute;
+     right: 20px;
      width: 150px;
-     padding-top: 28px;
-     padding-right: 20px;
+     padding-top: 15px;
      display: flex;
      justify-content: space-around;
  }
  
- #header_wrapper .global_menu{
-     padding-top: 30px;
- }
- 
- .global_menu .header_navlist{
+ #header_wrapper .header_navlist{
      font-family: "Rubik", sans-serif;
      color: #00000075;
      font-size: 17px;
+     width: auto;
      list-style: none; 
      display: flex;
      justify-content: space-around;
@@ -38,6 +38,7 @@
  
  .header_navlist_item1,.header_navlist_item2,.header_navlist_item3,.header_navlist_item4,.header_navlist_item5,.header_navlist_item6{
      position: relative;
+     margin-left: 30px;
  }
  
  .header_navlist_item1::after,.header_navlist_item2::after,.header_navlist_item3::after,.header_navlist_item4::after,.header_navlist_item5::after,.header_navlist_item6::after{
@@ -57,10 +58,6 @@
      transform: scale(1, 1);     
  }
  
- .header_navlist_item2,.header_navlist_item3,.header_navlist_item4,.header_navlist_item5,.header_navlist_item6{
-     margin-left: 50px;
- } 
-
  /*articlesで使われているcss*/
 #articles {
     width: 100%;

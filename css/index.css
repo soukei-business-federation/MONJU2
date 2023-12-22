@@ -25,12 +25,10 @@ a{
 #header_wrapper .header_sns{
     position: absolute;
     right: 20px;
+    width: 150px;
     padding-top: 15px;
     display: flex;
-}
-
-#header_wrapper .header_sns svg{
-    margin-left: 20px;
+    justify-content: space-around;
 }
 
 #header_wrapper .header_navlist{
