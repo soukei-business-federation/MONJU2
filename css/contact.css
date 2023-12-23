@@ -119,3 +119,10 @@
         color: blue;
 }
 }
+
+@media screen and (max-width:425px){
+    #Contact .Contact_title h1{
+        font-size: 40px;
+    }
+    
+}
