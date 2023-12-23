@@ -160,3 +160,26 @@
     text-align: center;
     padding-top: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    #Entry .Entry_title h1{
+        font-size: 45px;
+    }
+
+    #Entry .Entry_list{
+        height: 100px;
+    }
+
+
+    #Entry .Entry_students{
+        border: solid 1px gray;
+        width: 250px;
+        height: 40px;
+        padding-top: 2px;
+    }
+
+    #Entry .Entry_students h1{
+        font-weight: bolder;
+        font-size: x-large;
+    }
+}
