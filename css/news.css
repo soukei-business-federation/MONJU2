@@ -64,7 +64,14 @@
     height: auto;
 }
 
+#articles .news_title{
+    position: relative;
+    height: 300px;
+}
+
 #articles .news_title img{
+    position: absolute;
+    top: 70px;
     width: 100%;
     transform: scale(1,1);
     display: flex;
@@ -151,4 +158,21 @@
     font-size: xx-small;
     text-align: center;
     padding-top: 10px;
+}
+
+@media screen and (max-width:1150px) {
+    #articles_container .articles_line1 .article3{
+        display: none;
+    }
+
+    #aritcles .news_title img{
+        height: 150px;
+       
+    }
+}
+
+@media screen and (max-width:800px) {
+    #articles_container .articles_line1 .article2{
+        display: none;
+    }
 }
