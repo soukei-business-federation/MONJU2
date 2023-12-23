@@ -91,11 +91,31 @@
     max-width: 80%;
 }
 
+#Contact .Contact_list p{
+    display: none;
+}
+
 /*fotterで使っているcss*/
 #footer{
-    height: 30px;
     width: 100%;
     font-size: xx-small;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 20px;
+}
+
+@media screen and (max-width:768px){
+    #Contact .Contact_list iframe{
+        display: none;
+    }
+    
+    #Contact .Contact_list p{
+        display: flex;
+        flex-direction: column;
+        font-family:"Arial",sans-serif ;
+        font-size: large;
+    }
+
+    #Contact .Contact_list a{
+        color: blue;
+}
 }
