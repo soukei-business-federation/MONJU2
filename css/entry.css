@@ -191,4 +191,8 @@
     #Entry .Entry_title h1 {
         font-size: 30px;
     }
+
+    #Entry .Entry_title p{
+        font-size: 15px;
+    }
 }
