@@ -159,3 +159,71 @@
 #footer p{
     font-size: xx-small;
 }
+
+@media screen and (max-width:1024px) {
+    #suponsorship_header h1{
+        font-size: 45px;
+    }
+
+    #suponsorship h1{
+        font-size: 45px;
+    }
+    
+    #suponsorship h2{
+        font-size: 35px;
+    }
+    
+    #suponsorship h3{
+        font-size: 20px;
+    }
+    
+    #suponsorship p{
+        font-size: 20px;
+    }   
+}
+
+@media screen and (max-width:780px) {
+    #suponsorship_header h1{
+        font-size: 30px;
+    }
+
+    #suponsorship h1{
+        font-size: 30px;
+    }
+    
+    #suponsorship h2{
+        font-size: 30px;
+    }
+    
+    #suponsorship h3{
+        font-size: 18px;
+    }
+    
+    #suponsorship p{
+        font-size: 15px;
+    }   
+    
+}
+
+@media screen and (max-width:600px) {
+    #suponsorship_header h1{
+        font-size: 25px;
+    }
+
+    #suponsorship h1{
+        font-size: 25px;
+    }
+    
+    #suponsorship h2{
+        font-size: 25px;
+    }
+    
+    #suponsorship h3{
+        font-size: 18px;
+    }
+    
+    #suponsorship p{
+        font-size: 13px;
+    }   
+    
+}
