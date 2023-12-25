@@ -441,10 +441,6 @@ a{
 }
 
 @media screen and (max-width: 768px)  {
-#articles .articles_container .article2{
-    display: none;
-}
-
 #Contact_form .Contact_title h1{
    text-align: center;
 }

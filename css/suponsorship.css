@@ -84,7 +84,9 @@
 
 /*suponsorshipで使っているcs*/
 #suponsorship{
-    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
     height: auto;
     display: flex;
     flex-direction: column;
