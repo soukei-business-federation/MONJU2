@@ -1,5 +1,5 @@
 body{
-    width: 1440px;
+    max-width: 1440px;
 }
 /*header_wrapperで使っているcss*/
 #header_wrapper{
@@ -94,6 +94,10 @@ body{
 
 #about_outline .about_description{
     width: 100%;
+}
+
+.about_description_sub, .about_details_sub{
+    display: none;
 }
 /*以下コメントアウトした部分をmasterとしてcopy*/
 .about_description .about_description1{
@@ -714,6 +718,12 @@ body{
     transition: 0.8s ease-in-out;
     transform: translateY(30px);
     opacity: 0;
+    position: relative;
+}
+
+.about_details .about_details3-2_blank img{
+    position: absolute;
+    left: 300px;
 }
 
 .about_details .about_details3-2_blank.on{
@@ -1013,3 +1023,67 @@ body{
         opacity: 1;
     }
 }
+
+@media screen and (max-width:900px) {
+    #about_outline .about_empty{
+        height: 200px;
+    }
+
+    .about_description, .about_details{
+        display: none;
+    } 
+
+    .about_description_sub, .about_details_sub{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 90%;
+    }
+
+
+    .about_description_sub h1, .about_details_sub h1{
+        z-index: 2;
+        font-size: 45px;
+        font-weight: bold;
+        font-family: "Arial", sans-serif;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about_description_sub h1, .about_details_sub h1{
+        font-size: 27px;
+    }
+
+    #about_outline .about_MONJU2 h1, #about_outline .about_features h1, #about_outline .about_schedule_title h1, #about_outline .about_supporter_title h1, #Contact_form .Contact_title h1{
+        font-size: 35px;
+    }
+
+    #Contact_form .Contact_title p{
+        font-size: 15px;
+    }
+
+    #Contact_form .Contact_list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Contact_form .Contact_students, #Contact_form .Entry_students{
+        position: relative;
+        height: 40px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    #Contact_form .Contact_students h1, #Contact_form .Entry_students h1{
+        position: absolute;
+        top: 3px;
+    }
+     
+    #Contact_form .Contact_students p, #Contact_form .Entry_students p{
+        display: none;
+    }
+
+}
+    
