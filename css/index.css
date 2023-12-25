@@ -441,6 +441,20 @@ a{
 }
 
 @media screen and (max-width: 768px)  {
+#articles .articles_container .article2{
+    display: none;
+}
+
+#About .About_contents .MONJU2_logo{
+    display: none;
+}
+
+#About .About_contents .About_description{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 #Contact_form .Contact_title h1{
    text-align: center;
 }
