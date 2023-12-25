@@ -211,4 +211,16 @@
     #articles_container .articles_line1 .article3{
         display: inline;
     }
+
+    #articles_container .article1 .article_image_box1 img{
+        transform: scale(0.9,0.9);
+    }
+
+    #articles_container .article2 .article_image_box2 img{
+        transform: scale(0.9,0.9);
+    }
+
+    #articles_container .article3 .article_image_box3 img{
+        transform: scale(0.9,0.9);
+    }
 }
