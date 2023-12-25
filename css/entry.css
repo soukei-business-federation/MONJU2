@@ -57,6 +57,14 @@
  .header_navlist_item1:hover::after,.header_navlist_item2:hover::after,.header_navlist_item3:hover::after,.header_navlist_item4:hover::after,.header_navlist_item5:hover::after,.header_navlist_item6:hover::after{
      transform: scale(1, 1);     
  }
+
+ .header_hamburger{
+    display: none
+}
+
+#header_hamburger_navigation{
+    display: none;
+}
  
  /*Entry_emptyで使っているcss*/
 #Entry_empty{
@@ -180,6 +188,73 @@
     #Entry .Entry_students h1{
         font-weight: bolder;
         font-size: x-large;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    #header_wrapper .header_navlist, #header_wrapper .header_sns{
+        display: none;
+    }
+
+    #header_wrapper .header_hamburger{
+        border: solid 1px gray;
+        border-radius: 8px;
+        filter:drop-shadow(1px 1px 1px #5e5e5e);
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    #header_wrapper .header_hamburger span{
+        padding: 5px;
+        border-bottom: solid 3px gray;
+        width: 60%;
+        height: 2px;
+    }
+
+    #header_hamburger_navigation{
+        z-index: 4;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background: rgba(0, 0, 0, .8);
+        transition: all .2s ease-in-out;
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    #header_hamburger_navigation ul{
+        color: white;
+        font-family: "Rubik", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #header_hamburger_navigation li{
+        margin: 20px;
+    }
+
+    #header_hamburger_navigation .header_hamburger_navigaton_sns{
+        border: solid 3px white;
+    }
+
+    #header_hamburger_navigation.toggle{
+        transform: translateY( 0 );
+        opacity: 1;
     }
 }
 
