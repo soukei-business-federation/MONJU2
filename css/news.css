@@ -91,6 +91,7 @@
 }
 
 #articles_container .articles_line1{
+    border: solid 1px gray;
     height: 300px;
     width: 100%;
     display: flex;
@@ -167,7 +168,6 @@
 
     #aritcles .news_title img{
         height: 150px;
-       
     }
 }
 
