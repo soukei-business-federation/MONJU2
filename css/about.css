@@ -1,3 +1,6 @@
+body{
+    max-width: 1440px;
+}
 /*header_wrapperで使っているcss*/
 #header_wrapper{
     border-bottom: solid 1px #d0d0d0;
@@ -57,6 +60,14 @@
  .header_navlist_item1:hover::after,.header_navlist_item2:hover::after,.header_navlist_item3:hover::after,.header_navlist_item4:hover::after,.header_navlist_item5:hover::after,.header_navlist_item6:hover::after{
      transform: scale(1, 1);     
  }
+
+.header_hamburger{
+    display: none
+}
+
+#header_hamburger_navigation{
+    display: none;
+}
  
  /*about_outlineで使っているcss*/
 #about_outline .about_empty{
@@ -83,6 +94,10 @@
 
 #about_outline .about_description{
     width: 100%;
+}
+
+.about_description_sub, .about_details_sub{
+    display: none;
 }
 /*以下コメントアウトした部分をmasterとしてcopy*/
 .about_description .about_description1{
@@ -703,6 +718,12 @@
     transition: 0.8s ease-in-out;
     transform: translateY(30px);
     opacity: 0;
+    position: relative;
+}
+
+.about_details .about_details3-2_blank img{
+    position: absolute;
+    left: 300px;
 }
 
 .about_details .about_details3-2_blank.on{
@@ -935,3 +956,134 @@
     text-align: center;
     padding-top: 10px;
 }
+
+@media screen and (max-width: 1024px) {
+    #header_wrapper .header_navlist, #header_wrapper .header_sns{
+        display: none;
+    }
+
+    #header_wrapper .header_hamburger{
+        border: solid 1px gray;
+        border-radius: 8px;
+        filter:drop-shadow(1px 1px 1px #5e5e5e);
+        position: absolute;
+        top: 10px;
+        right: 20px;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    #header_wrapper .header_hamburger span{
+        padding: 5px;
+        border-bottom: solid 3px gray;
+        width: 60%;
+        height: 2px;
+    }
+
+    #header_hamburger_navigation{
+        z-index: 4;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        background: rgba(0, 0, 0, .8);
+        transition: all .2s ease-in-out;
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    #header_hamburger_navigation ul{
+        color: white;
+        font-family: "Rubik", sans-serif;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #header_hamburger_navigation li{
+        margin: 20px;
+    }
+
+    #header_hamburger_navigation .header_hamburger_navigaton_sns{
+        border: solid 3px white;
+    }
+
+    #header_hamburger_navigation.toggle{
+        transform: translateY( 0 );
+        opacity: 1;
+    }
+}
+
+@media screen and (max-width:900px) {
+    #about_outline .about_empty{
+        height: 200px;
+    }
+
+    .about_description, .about_details{
+        display: none;
+    } 
+
+    .about_description_sub, .about_details_sub{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        max-width: 90%;
+    }
+
+
+    .about_description_sub h1, .about_details_sub h1{
+        z-index: 2;
+        font-size: 45px;
+        font-weight: bold;
+        font-family: "Arial", sans-serif;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .about_description_sub h1, .about_details_sub h1{
+        font-size: 27px;
+    }
+
+    #about_outline .about_MONJU2 h1, #about_outline .about_features h1, #about_outline .about_schedule_title h1, #about_outline .about_supporter_title h1, #Contact_form .Contact_title h1{
+        font-size: 35px;
+    }
+
+    #Contact_form .Contact_title p{
+        font-size: 15px;
+    }
+
+    #Contact_form .Contact_list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Contact_form .Contact_students, #Contact_form .Entry_students{
+        position: relative;
+        height: 40px;
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    #Contact_form .Contact_students h1, #Contact_form .Entry_students h1{
+        position: absolute;
+        top: 3px;
+    }
+     
+    #Contact_form .Contact_students p, #Contact_form .Entry_students p{
+        display: none;
+    }
+
+}
+    

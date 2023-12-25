@@ -11,3 +11,11 @@ window.onload = function(){
     window.addEventListener('load', scrollAnimationFunc);
     window.addEventListener('scroll', scrollAnimationFunc);
   };
+
+  $(function() {
+    const hum = $('#header_wrapper .header_hamburger, .close')
+    const nav = $('#header_hamburger_navigation')
+    hum.on('click', function(){
+       nav.toggleClass('toggle');
+    });
+  });
