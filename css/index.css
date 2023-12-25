@@ -441,6 +441,11 @@ a{
 }
 
 @media screen and (max-width: 768px)  {
+#top_image .top_image_space{
+    height: 50px;
+    width: 100%;
+}
+
 #articles .articles_container .article2{
     display: none;
 }
