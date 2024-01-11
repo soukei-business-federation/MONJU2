@@ -1,6 +1,7 @@
 body{
     max-width: 1440px;
 }
+
 /*header_wrapperで使っているcss*/
 #header_wrapper{
     border-bottom: solid 1px #d0d0d0;
