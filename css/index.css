@@ -74,11 +74,7 @@ a{
 /*top_imageで使っているcss*/
 #top_image{
     position: relative;
-    height: 650px;
-}
-
-#top_image .top_image_space{
-    height: 40px
+    width: auto;
 }
 
 #top_image .catchphrase_border{
@@ -86,12 +82,10 @@ a{
 }
 
 #top_image video{
-    position: absolute;
-    max-width: auto;
-    transform: scale(0.7,0.5);
-    transform-origin: 100px 80px;
+    display: block;
     border-radius: 40px;
-    z-index: 1;
+    transform: scale(0.95,0.8);
+    max-width: 100%;
 }
 
 /*articlesで使っているcss*/
