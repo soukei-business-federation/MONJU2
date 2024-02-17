@@ -81,8 +81,15 @@ a{
     filter:drop-shadow(2px 4px 10px #5e5e5e);
 }
 
+#top_image .top_image_space{
+    width: auto;
+    height: 25px;
+}
+
 #top_image video{
     display: block;
+    margin-left: auto;
+    margin-right: auto;
     border-radius: 40px;
     transform: scale(0.95,0.8);
     max-width: 100%;
