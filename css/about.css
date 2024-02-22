@@ -844,14 +844,14 @@ body{
 }
 
 #about_outline .about_supporter_list{
-    display: flex;
-    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    height: 380px
 }
 
-#about_outline .about_supporter_list img{
-    max-width: 100%;
-    transform-origin: top;
-    transform: scale(0.5,0.5); 
+#about_outline .about_supporter_list p{
+    font-size: 20px;
+    font-family: 'M PLUS 1p', sans-serif;
 }
 /*Contactで使っているcss*/
 #Contact_form{
