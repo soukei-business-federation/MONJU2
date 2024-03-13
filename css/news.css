@@ -93,7 +93,7 @@
  /*articles_containerで使われいるcss*/
 #articles_container h1{
     font-family: "Arial", sans-serif;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
     color: rgba(30, 30, 30, 0.904);
 }
@@ -104,7 +104,6 @@
 }
 
 #articles_container .articles_line1{
-    border: solid 1px rgb(243, 223, 223);
     height: 300px;
     width: 100%;
     display: flex;
